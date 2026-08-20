@@ -1,0 +1,23 @@
+.heading .center {
+  text-align: center;
+}
+
+.heading .left {
+  text-align: left;
+}
+
+.heading .right {
+  text-align: right;
+}
+
+.heading .small {
+  font-size: 24px;
+}
+
+.heading .medium {
+  font-size: 36px;
+}
+
+.heading .large {
+  font-size: 48px;
+}
