@@ -1,23 +1,23 @@
-.heading .center {
+.title .center {
   text-align: center;
 }
 
-.heading .left {
+.title .left {
   text-align: left;
 }
 
-.heading .right {
+.title .right {
   text-align: right;
 }
 
-.heading .small {
+.title .small {
   font-size: 24px;
 }
 
-.heading .medium {
+.title .medium {
   font-size: 36px;
 }
 
-.heading .large {
+.title .large {
   font-size: 48px;
 }
