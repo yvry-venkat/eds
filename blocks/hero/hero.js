@@ -17,7 +17,7 @@ export default function decorate(block) {
 
   if (getText(headingRow)) {
     const heading = document.createElement('h1');
-    heading.innerHTML = getCell(headingRow).innerHTML;
+    heading.textContent = getText(headingRow);
     content.append(heading);
   }
 
@@ -63,8 +63,6 @@ export default function decorate(block) {
     "placementAssistance": "95% Direct Hire Rate"
   }
 }`;
-
-  content.querySelectorAll('h1 p').forEach((p) => p.classList.add('hero-heading-line'));
 
   block.replaceChildren(content, graphic);
 }
